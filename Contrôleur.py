@@ -1,6 +1,6 @@
 from personne import personne
  class contoleur(personne):
-      def _init_ (sef):
+      def _init_ (self):
          personne. _init_ (self);
      def verifier(self, solde,mt):
        if (solde < mt):
